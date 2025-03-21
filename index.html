@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Perfil do Usuário</h1>
+        <img src="../pagina-responsiva-Turma-C/imagens/minha-foto.jpg" class="profile-img" alt="Foto de Perfil">
+        <h3>Felipe Cordeiro</h3>
+        <p>Email: felipeclassecordeiro@hotmail.com</p>
+        <p>Telefone: (44) 99802-4022</p>
+        
+        <h2>Atividades Recentes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Atividade</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>17/03/2025</td>
+                    <td>https://github.com/FelipeCordeiroC/Portif-lio-turma-C.git</td>
+                
+                </tr>
+                <tr>
+                    <td>21/03/2025</td>
+                    <td>https://github.com/FelipeCordeiroC/pagina-responsina-Turma-C.git</td>
+                    
+                </tr>
+                <tr>
+                    <td>28/03/2025</td>
+                    <td>https://github.com/FelipeCordeiroC/front.git</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+        <form onsubmit="return handleSubmit(event)">
+            
+            <input type="text" id="name" placeholder="Nome" required>
+            
+            <input type="email" id="email" placeholder="Email" required>
+            
+            <textarea id="message" placeholder="Mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
